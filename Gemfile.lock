@@ -19,8 +19,8 @@ GIT
 PATH
   remote: .
   specs:
-    admin_invitable (0.0.1)
-      rails (~> 4.1.10)
+    admin_invitable (0.0.2)
+      rails (> 4.1)
 
 GEM
   remote: https://rubygems.org/
