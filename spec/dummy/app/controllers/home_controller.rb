@@ -3,7 +3,7 @@ class HomeController < ApplicationController
   end
 
   def invite
-    AdminUser.invite!(email: params[:email])
-    render text: "invitation was sent to #{params[:email]}"
+    @email = params[:email]
+    AdminUser.invite!(email: @email)
   end
 end
