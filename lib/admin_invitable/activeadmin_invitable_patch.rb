@@ -1,4 +1,4 @@
-module ActiveAdmin
+module ::ActiveAdmin
   module Devise
     class << self
       alias_method :old_controllers, :controllers
