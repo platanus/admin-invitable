@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email       = ["ldlsegovia@gmail.com"]
   s.homepage    = ""
   s.summary     = "Gem to use devise invitable with ActiveAdmin."
-  s.description = "AdminInvitable includes a generator to make work devise invitable gem with ActiveAdmin."
+  s.description = "AdminInvitable includes a generator to make devise invitable gem work with ActiveAdmin."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
