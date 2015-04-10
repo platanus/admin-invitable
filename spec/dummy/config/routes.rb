@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   mount AdminInvitable::Engine => "/admin_invitable"
 
   get 'home/index'
+  post 'home/invite'
 
   root to: "home#index"
 end
