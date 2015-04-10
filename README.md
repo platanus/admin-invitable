@@ -14,8 +14,6 @@ gem 'devise_invitable'
 gem "activeadmin", github: 'gregbell/active_admin'
 ```
 
-> You need to get up and running gems named before
-
 ## Installation
 
 Add to your Gemfile
