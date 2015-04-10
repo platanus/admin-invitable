@@ -13,4 +13,5 @@ gemspec
 # To use debugger
 # gem 'debugger'
 gem "devise"
+gem 'devise_invitable'
 gem "activeadmin", github: 'gregbell/active_admin'
