@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    admin_invitable (0.0.2)
+    admin_invitable (0.0.3)
       activeadmin (= 1.0.0.pre1)
       devise (~> 3.4)
       devise_invitable (~> 1.4)

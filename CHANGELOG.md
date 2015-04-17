@@ -11,3 +11,9 @@
 ### Fixed
 
 * Add missing instructions template.
+
+## v0.0.3
+
+### Changed
+
+* Move devise, devise_invitable and activeadmin gems from Gemfile to gempsec.
