@@ -4,7 +4,7 @@ Admin Invitable
 Admin Invitable is a gem that allows [devise invitable gem](https://github.com/scambra/devise_invitable) to work with [ActiveAdmin](http://activeadmin.info) nicely.
 To clarify, the common use will be super administrators inviting administrators with less privileges.
 
-## Pre-Installation
+## Installation
 
 Add to your Gemfile and install the following gems...
 
@@ -14,9 +14,7 @@ gem 'devise_invitable'
 gem "activeadmin", github: 'gregbell/active_admin'
 ```
 
-## Installation
-
-Add to your Gemfile
+and, of course, add...
 
 ```ruby
 gem "admin_invitable"
