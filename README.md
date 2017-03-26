@@ -1,5 +1,8 @@
 Admin Invitable
 ===============
+[![Gem Version](https://badge.fury.io/rb/admin_invitable.svg)](https://badge.fury.io/rb/admin_invitable)
+[![Build Status](https://travis-ci.org/platanus/admin-invitable.svg?branch=master)](https://travis-ci.org/platanus/admin-invitable)
+[![Coverage Status](https://coveralls.io/repos/github/platanus/admin-invitable/badge.svg)](https://coveralls.io/github/platanus/admin-invitable)
 
 Admin Invitable is a gem that allows [devise invitable gem](https://github.com/scambra/devise_invitable) to work with [ActiveAdmin](http://activeadmin.info) nicely.
 To clarify, the common use will be super administrators inviting administrators with less privileges.
@@ -84,4 +87,3 @@ Admin Invitable is maintained by [platanus](http://platan.us).
 ## License
 
 Admin Invitable is © 2015 platanus, spa. It is free software and may be redistributed under the terms specified in the LICENSE file.
-
