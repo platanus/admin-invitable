@@ -1,3 +1,11 @@
+### Unreleased
+
+##### Added
+
+* Add Hound configuration.
+* Deploy with Travis CI.
+* Configure coveralls.
+
 ## v0.0.1
 
 * Initial release
