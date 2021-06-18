@@ -1,7 +1,6 @@
 Admin Invitable
 ===============
 [![Gem Version](https://badge.fury.io/rb/admin_invitable.svg)](https://badge.fury.io/rb/admin_invitable)
-[![Build Status](https://travis-ci.org/platanus/admin-invitable.svg?branch=master)](https://travis-ci.org/platanus/admin-invitable)
 [![Coverage Status](https://coveralls.io/repos/github/platanus/admin-invitable/badge.svg)](https://coveralls.io/github/platanus/admin-invitable)
 
 Admin Invitable is a gem that allows [devise invitable gem](https://github.com/scambra/devise_invitable) to work with [ActiveAdmin](http://activeadmin.info) nicely.
@@ -10,14 +9,6 @@ To clarify, the common use will be super administrators inviting administrators 
 ## Installation
 
 Add to your Gemfile and install the following gems...
-
-```ruby
-gem "devise"
-gem 'devise_invitable'
-gem "activeadmin", github: 'gregbell/active_admin'
-```
-
-and, of course, add...
 
 ```ruby
 gem "admin_invitable"
@@ -47,7 +38,7 @@ $ rails generate devise_invitable Admin
 Then, somewhere in your code, a super admin will have access to perform:
 
 ```ruby
-Admin.invite!(:email => "newadmin@platan.us")
+Admin.invite!(email: "newadmin@platan.us")
 ```
 
 This will send the email (`invitation_instructions.html.erb`) to **newclient@platan.us** with a link to the form (`edit.html.erb`). After choosing the password, the admin will by redirected into Active Admin dashboard.
@@ -86,4 +77,4 @@ Admin Invitable is maintained by [platanus](http://platan.us).
 
 ## License
 
-Admin Invitable is © 2015 platanus, spa. It is free software and may be redistributed under the terms specified in the LICENSE file.
+Admin Invitable is © 2021 platanus, spa. It is free software and may be redistributed under the terms specified in the LICENSE file.
