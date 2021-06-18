@@ -25,3 +25,9 @@
 * Add Hound configuration.
 * Deploy with Travis CI.
 * Configure coveralls.
+
+## v1.0.0
+### Changed
+
+- Replace travis with CircleCI.
+- Update Dependencies to play nice with Rails 6.

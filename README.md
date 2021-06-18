@@ -59,6 +59,17 @@ If you want to see an example you can:
 * Run `$ rails s` inside `/admin_invitable/spec/dummy`
 * Open browser at `localhost:3000`
 
+## Publishing
+
+On master/main branch...
+
+1. Change `VERSION` in `lib/admin_invitable/version.rb`.
+2. Change `Unreleased` title to current version in `CHANGELOG.md`.
+3. Run `bundle install`.
+4. Commit new release. For example: `Releasing v0.1.0`.
+5. Create tag. For example: `git tag v0.1.0`.
+6. Push tag. For example: `git push origin v0.1.0`.
+
 ## Contributing
 
 1. Fork it
