@@ -86,7 +86,7 @@ GEM
     ast (2.4.2)
     bcrypt (3.1.16)
     builder (3.2.4)
-    concurrent-ruby (1.1.9)
+    concurrent-ruby (1.1.10)
     coveralls (0.8.23)
       json (>= 1.8, < 3)
       simplecov (~> 0.16.1)
@@ -115,12 +115,12 @@ GEM
     formtastic (4.0.0)
       actionpack (>= 5.2.0)
     formtastic_i18n (0.7.0)
-    globalid (0.4.2)
-      activesupport (>= 4.2.0)
+    globalid (1.0.1)
+      activesupport (>= 5.0)
     has_scope (0.8.0)
       actionpack (>= 5.2)
       activesupport (>= 5.2)
-    i18n (1.8.10)
+    i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     inherited_resources (1.13.0)
       actionpack (>= 5.2, < 6.2)
@@ -156,9 +156,11 @@ GEM
     marcel (1.0.1)
     method_source (1.0.0)
     mini_mime (1.0.3)
-    minitest (5.14.4)
+    minitest (5.17.0)
     nio4r (2.5.7)
     nokogiri (1.11.7-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.11.7-x86_64-linux)
       racc (~> 1.4)
     orm_adapter (0.5.0)
     parallel (1.20.1)
@@ -272,7 +274,7 @@ GEM
     tilt (2.0.10)
     tins (1.29.1)
       sync
-    tzinfo (2.0.4)
+    tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.0.0)
     warden (1.2.9)
@@ -280,10 +282,11 @@ GEM
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-    zeitwerk (2.4.2)
+    zeitwerk (2.6.6)
 
 PLATFORMS
   x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   admin_invitable!
